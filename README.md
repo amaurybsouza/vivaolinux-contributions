@@ -35,6 +35,10 @@ $ ./script_name.sh
 
 I published another scripts on vivaolinux portal, but it's status is "waiting". I'm sure that soon it will be published.
 
+## Published articles
+
+[Gerenciamento de pacotes Debian](https://www.vivaolinux.com.br/artigo/Gerenciamento-de-pacotes-Debian-principais-comandos-LPIC-1)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
