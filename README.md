@@ -1,6 +1,6 @@
 # Contributions for vivaolinux
 
-![linux](vivaolinux-contributions/linux.png)
+![](vivaolinux-contributions/linux.png)
 
 
 In this repository I'd like to show how you can starting with Shell Scripts (Bash). 
