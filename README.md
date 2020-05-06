@@ -39,6 +39,14 @@ I published another scripts on vivaolinux portal, but it's status is "waiting". 
 
 [Gerenciamento de pacotes Debian](https://www.vivaolinux.com.br/artigo/Gerenciamento-de-pacotes-Debian-principais-comandos-LPIC-1)
 
+[Sistema de gerenciamento de logs do Linux
+](https://www.vivaolinux.com.br/artigo/Sistema-de-gerenciamento-de-logs-do-Linux)
+
+[Principais Comandos de Gestão e Prioridade de Processos no Linux
+](https://www.vivaolinux.com.br/artigo/Principais-Comandos-de-Gestao-e-Prioridade-de-Processos-no-Linux)
+
+[Gerenciamento de usuários e grupos no Linux](https://www.vivaolinux.com.br/dica/Gerenciamento-de-usuarios-e-grupos-no-Linux-LPIC-102)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
