@@ -21,7 +21,7 @@ $ chmod +x script_name.sh
 $ ./script_name.sh
 ```
 
-## Links for my published scripts
+## Published scripts
 
 [atualiza_sistema.sh](https://www.vivaolinux.com.br/script/Atualizar-Sistema-Ubuntu)
 
