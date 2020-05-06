@@ -31,7 +31,7 @@ $ ./script_name.sh
 
 [rconfig_backup.sh](https://www.vivaolinux.com.br/script/Limpeza-dos-dados-do-rConfig-ferramenta-open-source-de-gerenciamento-de-configuracao)
 
-I published another script on vivaolinux portal, but it's status is "waiting". I'm sure that soon it will be published.
+I published another scripts on vivaolinux portal, but it's status is "waiting". I'm sure that soon it will be published.
 
 
 ## Contributing
