@@ -1,4 +1,6 @@
-# [Contributions for vivaolinux](vivaolinux-contributions/scripts(bash)/linux.png)
+# Contributions for vivaolinux
+
+(vivaolinux-contributions/scripts(bash)/linux.png)
 
 In this repository I'd like to show how you can starting with Shell Scripts (Bash). 
 
