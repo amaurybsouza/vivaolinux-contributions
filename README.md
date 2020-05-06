@@ -1,6 +1,6 @@
 # Contributions for vivaolinux
 
-In this repository I'd like to show how you can starting with shell script (Bash). 
+In this repository I'd like to show how you can starting with Shell Scripts (Bash). 
 
 ## Get started with scripts
 
