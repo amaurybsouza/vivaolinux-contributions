@@ -1,6 +1,6 @@
 # Contributions for vivaolinux.com.br
 
-![mascote](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/scripts(bash)/linux.png) ![vim](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/scripts(bash)/vim.png) ![bash](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/scripts(bash)/bash.png)
+![mascote](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/Shell scripts/linux.png) ![vim](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/Shell scripts/vim.png) ![bash](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/Shell scripts/bash.png)
 
 In this repository I'd like to show how you can starting with Shell Scripts (Bash). 
 
