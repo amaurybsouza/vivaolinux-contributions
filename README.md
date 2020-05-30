@@ -1,4 +1,4 @@
-# Contributions for vivaolinux
+# Contributions for vivaolinux.com.br
 
 ![mascote](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/scripts(bash)/linux.png) ![vim](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/scripts(bash)/vim.png) ![bash](https://github.com/amaurybsouza/vivaolinux-contributions/blob/master/scripts(bash)/bash.png)
 
