@@ -23,23 +23,35 @@
 # Thankfulness: Amaury Souza
 #
 #VARIABLES --------------------------------------------------------------- #
+ROOT_UID=0
 data=`date +%d-%m-%y-%H:%M`
-bkp_source=/etc
-bkp_dest=/backup
+dir_source=/etc
+dir_dest=/backup
 #FUNCTIONS --------------------------------------------------------------- #
 compact() {
-	tar -cjvf $bkp_dest/bkp-$data-usr.tar.bz2 $bkp_source
+	tar -cjvf $dir_dest/bkp-$data-usr.tar.bz2 $dir_source
+}
+isroot() {
+	if [ "$UID" -ne "$ROOT_UID" ]
+then
+	echo ""
+        echo "Must be root to run this script!"
+	echo ""
+        exit $E_NOTROOT
+fi
 }
 #CODE -------------------------------------------------------------------- #
-if [ -d $bkp_dest ]
+isroot
+if [ -d $dir_dest ]
 then
 	compact
 else
-	if [ -f $bkp_dest ]
+	if [ -f $dir_dest ]
 	then
-		echo "Impossible! $bkp_dest is a file"
+		echo "Not a dir $dir_dest it is a file"
+		sleep 2
 	else
-		mkdir $bkp_dest
+		mkdir $dir_dest
 		compact
 	fi
 fi
