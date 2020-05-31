@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # ------------------------------------------------------------------------ #
-# Script Name:   backup-etc.sh 
+# Script Name:   system-backup.sh 
 # Description:   Backup from /etc directory
 # Site:          https://medium.com/@amaurybsouza
 # Written by:    Amaury Souza
 # Maintenance:   Amaury Souza
 # ------------------------------------------------------------------------ #
 # Usage:         
-#       $ ./backup-etc.sh
+#       $ ./system-backup.sh
 # ------------------------------------------------------------------------ #
 # Tested on:  
 #       Bash 4.2.46
@@ -23,12 +23,12 @@
 # Thankfulness: Amaury Souza
 #
 #VARIABLES --------------------------------------------------------------- #
-data=`date +%d-%m-%y`
-bkp_or=/etc
+data=`date +%d-%m-%y-%H:%M`
+bkp_source=/etc
 bkp_dest=/backup
 #FUNCTIONS --------------------------------------------------------------- #
 compact() {
-	tar -cjvf $bkp_dest/bkp-$data-usr.tar.bz2 $bkp_or
+	tar -cjvf $bkp_dest/bkp-$data-usr.tar.bz2 $bkp_source
 }
 #CODE -------------------------------------------------------------------- #
 if [ -d $bkp_dest ]
@@ -37,7 +37,7 @@ then
 else
 	if [ -f $bkp_dest ]
 	then
-		echo "Impossível! $bkp_dest é um arquivo"
+		echo "Impossible! $bkp_dest is a file"
 	else
 		mkdir $bkp_dest
 		compact
